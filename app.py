@@ -5,7 +5,7 @@ import secrets
 
 
 BUCKET_NAME = os.getenv("BUCKET_NAME") or "bytebin"
-RESERVED_KEYS = ["post"]
+RESERVED_KEYS = ["demo", "post"]
 
 app = chalice.Chalice(app_name="bytebin")
 
